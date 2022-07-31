@@ -1,0 +1,37 @@
+.expenses-filter {
+  color: white;
+  padding: 0 1rem;
+}
+.expenses-filter__filter {
+  background: none;
+  color: #fff;
+  border: solid 1px #dbf308d8;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.expenses-filter__filter:hover {
+  transform: scale(1.1);
+}
+.expenses-filter__filter option {
+  background-color: #444;
+}
+
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  border-radius: 6px;
+}
